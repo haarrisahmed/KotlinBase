@@ -30,7 +30,7 @@ object Versions {
     val constrain = "1.1.3"
 
     val ktx = "1.0.2"
-    val coroutine = "1.1.1"
+    val coroutine = "1.2.1"
 
     val kotlin = "1.3.31"
     val timber = "4.7.1"
@@ -38,10 +38,11 @@ object Versions {
     val loggingInterceptor = "3.12.1"
     val glide = "4.9.0"
     val lifecycle = "2.0.0"
-    val room = "2.0.0"
+    val lifecycleVm = "2.1.0-beta01"
+    val room = "2.1.0"
     val leakCanary = "2.0-alpha-2"
     val crashlytics = "2.9.9"
-    val koin = "2.0.0"
+    val koin = "2.0.1"
     val gson = "2.8.5"
     val stetho = "1.5.1"
 
@@ -73,6 +74,7 @@ object Libraries {
     val stetho = "com.facebook.stetho:stetho:${Versions.stetho}"
     val stethoOkHttp = "com.facebook.stetho:stetho-okhttp3:${Versions.stetho}"
 
+    val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVm}"
     val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
     val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
     val room = "androidx.room:room-runtime:${Versions.room}"

@@ -67,6 +67,10 @@ abstract class BaseActivity : AppCompatActivity() {
 
     fun isLoading() = progressbar != null
 
+    fun setToolbarTitle(title: String) {
+        supportActionBar?.title = title
+    }
+
     protected fun setContentViewVisibility(visibility: Boolean) {
         if (visibility) currentView?.visible() else currentView?.gone()
     }

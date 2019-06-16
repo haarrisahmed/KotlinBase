@@ -1,4 +1,4 @@
-package com.carousell.newsapp.utils.interceptor
+package com.carousell.newsapp.utils.network.interceptor
 
 import com.carousell.newsapp.utils.Constants.IS_NETWORK_AVAILABLE
 import com.carousell.newsapp.utils.PreferenceHelper

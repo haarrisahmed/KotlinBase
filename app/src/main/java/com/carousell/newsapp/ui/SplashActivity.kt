@@ -9,6 +9,10 @@ import com.carousell.newsapp.utils.Constants
 import java.util.*
 import kotlin.concurrent.schedule
 
+/**
+ * Created by SangiliPandian C on 14-06-2019.
+ * we can use this screen to pre-fetch user data, pref, etc.,
+ */
 class SplashActivity : BaseActivity() {
 
     override val layoutResourceId = R.layout.activity_splash

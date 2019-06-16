@@ -41,6 +41,7 @@ dependencies {
     implementation Libraries.koinAndroid
     implementation Libraries.koinViewModel
 
+    implementation Libraries.lifecycleViewModel
     implementation Libraries.lifecycleExtensions
     kapt Libraries.lifecycleCompiler
 

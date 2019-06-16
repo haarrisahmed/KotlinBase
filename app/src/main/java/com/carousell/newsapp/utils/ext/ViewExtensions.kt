@@ -8,6 +8,7 @@ import androidx.annotation.StringRes
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.carousell.newsapp.R
 import com.google.android.material.snackbar.Snackbar
 
 fun View.visible() {
@@ -33,7 +34,7 @@ fun SwipeRefreshLayout.stopRefreshing() {
 fun ViewGroup.inflate(layoutId: Int, attachToRoot: Boolean = false): View =
     LayoutInflater.from(context).inflate(layoutId, this, attachToRoot)
 
-fun ImageView.loadImage(url: String) = Glide.with(this).load(url).into(this)
+fun ImageView.loadImage(url: String) = Glide.with(this).load(url).placeholder(R.drawable.ic_launcher_background).into(this)
 
 fun ImageView.loadImageRound(url: String) =
     Glide.with(this).load(url).apply(RequestOptions.circleCropTransform()).into(this)

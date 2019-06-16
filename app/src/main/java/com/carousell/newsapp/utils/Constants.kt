@@ -6,9 +6,10 @@ package com.carousell.newsapp.utils
 
 object Constants {
     const val CONNECTIVITY_CHANGE = "android.net.conn.CONNECTIVITY_CHANGE"
-    const val mDelay = 3000L
+    const val mDelay = 1000L
     const val CONNECT_TIMEOUT = 20L
     const val READ_TIMEOUT = 20L
     const val IS_NETWORK_AVAILABLE = "is_network_available"
     const val BASE_URL = "https://storage.googleapis.com/"
+    const val DB_NAME = "CarousellNewsAppDb"
 }

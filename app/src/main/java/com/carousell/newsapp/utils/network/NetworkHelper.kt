@@ -1,8 +1,8 @@
-package com.carousell.newsapp.utils
+package com.carousell.newsapp.utils.network
 
 import com.carousell.newsapp.utils.Constants.CONNECT_TIMEOUT
 import com.carousell.newsapp.utils.Constants.READ_TIMEOUT
-import com.carousell.newsapp.utils.interceptor.ConnectivityInterceptor
+import com.carousell.newsapp.utils.network.interceptor.ConnectivityInterceptor
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
