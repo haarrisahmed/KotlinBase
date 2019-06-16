@@ -20,7 +20,7 @@ import org.koin.core.parameter.parametersOf
 
 /**
  * Created by SangiliPandian C on 14-06-2019.
- * List the news feed, we can reuse this fragment in the app.
+ * List the news feed, we can reuse this fragment anywhere in the app.
  */
 class NewsFeedFragment : BaseFragment() {
 
@@ -52,8 +52,7 @@ class NewsFeedFragment : BaseFragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        return when (id) {
+        return when (item.itemId) {
             R.id.recent -> {
                 sortByDate()
                 true

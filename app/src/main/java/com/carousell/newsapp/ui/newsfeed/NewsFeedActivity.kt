@@ -15,6 +15,10 @@ class NewsFeedActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         injectModules()
+        initUI()
+    }
+
+    private fun initUI() {
         setToolbarTitle(getString(R.string.carousell_news))
         displayFragment()
     }

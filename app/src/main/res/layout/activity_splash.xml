@@ -6,12 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".ui.SplashActivity">
 
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/splash_screen_image_size"
+        android:layout_height="@dimen/splash_screen_image_size"
+        android:tint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_reading_launcher" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

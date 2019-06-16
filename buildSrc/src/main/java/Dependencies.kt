@@ -52,6 +52,7 @@ object Versions {
     val assertjCore = "3.12.2"
     val mockitoKotlin = "2.1.0"
     val mockitoInline = "2.27.0"
+    val mockitocore = "2.23.0"
 }
 
 object Libraries {
@@ -105,5 +106,7 @@ object TestLibraries {
     val assertjCore = "org.assertj:assertj-core:${Versions.assertjCore}"
     val mockitoKotlin = "com.nhaarman.mockitokotlin2:mockito-kotlin:${Versions.mockitoKotlin}"
     val mockitoInline = "org.mockito:mockito-inline:${Versions.mockitoInline}"
+    val mockitoCore = "org.mockito:mockito-core:${Versions.mockitocore}"
     val lifecycleTesting = "androidx.arch.core:core-testing:${Versions.lifecycle}"
+    val coroutineTesting = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutine}"
 }

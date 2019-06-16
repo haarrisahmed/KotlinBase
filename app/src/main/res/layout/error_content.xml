@@ -16,6 +16,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/error_loding_page" />
+        tools:text="@string/error_loading_page" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

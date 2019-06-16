@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.carousell.newsapp.R
 import com.carousell.newsapp.db.entity.News
-import com.carousell.newsapp.utils.CalendarUtils.getTimeAgo
+import com.carousell.newsapp.utils.CalendarUtils.getTimeAgoFormat
 import com.carousell.newsapp.utils.ext.inflate
 import com.carousell.newsapp.utils.ext.loadImage
 import kotlinx.android.synthetic.main.item_news_feed.view.*
@@ -29,7 +29,7 @@ class NewsFeedListAdapter : ListAdapter<News, NewsFeedListAdapter.ViewHolder>(Ne
             itemView.image.loadImage(item.image)
             itemView.tvTitle.text = item.title
             itemView.tvSubTitle.text = item.subTitle
-            itemView.tvTime.text = getTimeAgo(item.time)
+            itemView.tvTime.text = getTimeAgoFormat(item.time)
         }
     }
 }

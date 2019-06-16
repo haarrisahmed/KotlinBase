@@ -6,7 +6,7 @@ package com.carousell.newsapp.utils
 
 object Constants {
     const val CONNECTIVITY_CHANGE = "android.net.conn.CONNECTIVITY_CHANGE"
-    const val mDelay = 1000L
+    const val mDelay = 2000L
     const val CONNECT_TIMEOUT = 20L
     const val READ_TIMEOUT = 20L
     const val IS_NETWORK_AVAILABLE = "is_network_available"

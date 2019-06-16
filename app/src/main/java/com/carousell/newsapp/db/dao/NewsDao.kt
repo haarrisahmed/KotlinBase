@@ -15,7 +15,7 @@ interface NewsDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertNews(result: List<News>)
 
-    @Query("Select *from News")
+    @Query("Select *from News order by time asc")
     fun getAllNews(): List<News>
 
     @Query("Select *from News order by time desc")

@@ -34,7 +34,7 @@ fun SwipeRefreshLayout.stopRefreshing() {
 fun ViewGroup.inflate(layoutId: Int, attachToRoot: Boolean = false): View =
     LayoutInflater.from(context).inflate(layoutId, this, attachToRoot)
 
-fun ImageView.loadImage(url: String) = Glide.with(this).load(url).placeholder(R.drawable.ic_launcher_background).into(this)
+fun ImageView.loadImage(url: String) = Glide.with(this).load(url).placeholder(R.drawable.ic_newspaper).into(this)
 
 fun ImageView.loadImageRound(url: String) =
     Glide.with(this).load(url).apply(RequestOptions.circleCropTransform()).into(this)
